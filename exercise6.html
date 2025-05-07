@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> 05/07 </title>
+    </head>
+<style>
+    .green-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+     gap: 30px;
+     justify-content: center;
+     margin-top: 50px;
+}
+
+    .green-box {
+       width: 100px;
+       height: 100px;
+       background-color: green;
+}
+      @media (max-width: 600px) {
+      .green-grid {
+         gap: 10px;
+  }
+}
+         @media (max-width: 400px) {
+          .green-grid {
+             grid-template-columns: 100px;
+  }
+}
+    </style>
+ <body>
+    <div class="green-grid">
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+      <div class="green-box"></div>
+    </div>
+  </body>
+  </html>
